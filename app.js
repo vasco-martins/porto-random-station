@@ -10,7 +10,7 @@ currentStation.innerHTML = sessionStorage.getItem('current');
 if(leftStations) {
     length.innerHTML =  "Total: " +  leftStations.length + "/" + stations.length;
 } else {
-    length.innerHTML = "Total: " + stations.length + "/" + stations.length;
+    length.innerHTML = "Total: 0/" + stations.length;
 }
 
 const selectStation = () => {
